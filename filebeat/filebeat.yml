@@ -11,5 +11,8 @@ filebeat.modules:
 output.elasticsearch:
   hosts: ["elasticsearch:9200"]
 
+output.logstash:
+  hosts: ["graylog:5044"]
+
 setup.kibana:
   host: "kibana"
